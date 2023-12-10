@@ -2,19 +2,22 @@
 
 ## Some Transaction Hash of ZetaChain
 1. Deploy Contract On Zeta Testnet
-npx hardhat deploy --network zeta_testnet --chain btc_testnet
-:key: Using account: 0x22d808AccAFe6A81fa37f23fd78F90e166e2829A
-:rocket: Successfully deployed contract on ZetaChain.
-:scroll: Contract address: 0x3b1F5d9e59AEE04fF66340daf9E6d7e5844dF522
-:earth_africa: Explorer: https://athens3.explorer.zetachain.com/address/0x3b1F5d9e59AEE04fF66340daf9E6d7e5844dF522
+Command => npx hardhat deploy --network zeta_testnet --chain btc_testnet
+
+:🔑: Using account: 0x22d808AccAFe6A81fa37f23fd78F90e166e2829A
+:🚀: Successfully deployed contract on ZetaChain.
+:📜: Contract address: 0x3b1F5d9e59AEE04fF66340daf9E6d7e5844dF522
+:🌍: Explorer: https://athens3.explorer.zetachain.com/address/0x3b1F5d9e59AEE04fF66340daf9E6d7e5844dF522
 
 2. Add Zeta Address
-npx hardhat send-btc --memo 3b1F5d9e59AEE04fF66340daf9E6d7e5844dF5220322d808AccAFe6A81fa37f23fd78F90e166e2829A --amount 0.0 --recipient tb1qy9pqmk2pd9sv63g27jt8r657wy0d9ueeh0nqur
+Command => npx hardhat send-btc --memo 3b1F5d9e59AEE04fF66340daf9E6d7e5844dF5220322d808AccAFe6A81fa37f23fd78F90e166e2829A --amount 0.0 --recipient tb1qy9pqmk2pd9sv63g27jt8r657wy0d9ueeh0nqur
+
 Hash - b241a59e340c0e8f0c08b395ad9daf00006a050eacfff34abfb34d197ea58cf4
 Outbound hash - 0xd409932a5346aca0945e3461eabdee4f0bc89fed447fd25ce6668badf62d1433: 18332 → 7001: OutboundMined (Remote omnichain contract call completed)
 
 3. Mint Zrc
-npx hardhat send-btc --memo 3b1F5d9e59AEE04fF66340daf9E6d7e5844dF52201 --amount 0.001 --recipient tb1qy9pqmk2pd9sv63g27jt8r657wy0d9ueeh0nqur
+Command => npx hardhat send-btc --memo 3b1F5d9e59AEE04fF66340daf9E6d7e5844dF52201 --amount 0.001 --recipient tb1qy9pqmk2pd9sv63g27jt8r657wy0d9ueeh0nqur
+
 Hash - 7edf8a7e903060d8d317e493f15fb54f9679c418962ecb90cd5ccac4460e52d9
 Outbound hash - 0xaefd3bc561aae0385410d4b75416fe88fe430680a155e7788a974033de7e602c: 18332 → 7001: OutboundMined (Remote omnichain contract call completed) 
 
