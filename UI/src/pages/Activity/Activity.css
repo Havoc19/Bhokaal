@@ -1,0 +1,22 @@
+.activity__header {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.activity__container {
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.activity__container div:not(:last-child) {
+  margin-right: 30px;
+}
+
+.set_to_center {
+  display: block;
+  text-align: center;
+}

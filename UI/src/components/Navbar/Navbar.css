@@ -1,0 +1,16 @@
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.navbar__container--h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar__container--h1 span {
+  color: #5616c5;
+}

@@ -1,0 +1,13 @@
+.single__activity__header {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.single__activity--container {
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,40 @@
+.connect__modal--container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.connect__modal--box {
+  padding: 40px;
+  background: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.connect__modal--box-2 {
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.connect__modal--box-2 img {
+  width: 80px;
+  height: 80px;
+}
+
+.connect__modal--box:hover {
+  transform: scale(1.05);
+}
+
+.connect__modal--box:active {
+  transform: scale(1);
+}
